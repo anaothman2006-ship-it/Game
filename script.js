@@ -18,7 +18,7 @@ buttons.forEach((btn) => {
         }
     });
 });
-function startGame() {
+function resetGame() {
     humanScore = 0;
     humanScoreDisplay.textContent = 0;
     computerScore = 0;
