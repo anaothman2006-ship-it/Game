@@ -23,7 +23,9 @@ function startGame() {
     humanScoreDisplay.textContent = 0;
     computerScore = 0;
     computerScoreDisplay.textContent = 0;
-    endedGame.textContent = "Final Result!"
+    endedGame.textContent = "Final Result!";
+    displayResult.textContent = "Result!"
+
 }
 
 buttonStart.addEventListener("click", startGame);
